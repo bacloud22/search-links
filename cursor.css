@@ -1,0 +1,12 @@
+img {
+    pointer-events: none;
+    /* doing this makes sure .elementFromPoint 
+       do not acquires the image cursor object */
+    position: absolute;
+    /* z-index: 999; */
+}
+/* makes the cursor invisible */
+  
+* {
+    cursor: none;
+}
